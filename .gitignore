@@ -1,3 +1,6 @@
 node_modules/
 _site/
 functions/
+
+# Local Netlify folder
+.netlify
