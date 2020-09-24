@@ -7,4 +7,6 @@ assignees: ''
 
 ---
 
-Please write your name and the url of your garden. If there's an rss feed, you can add that as well.
+Hey, welcome to the club! 🍻
+
+To get started, please write your name, and link to your digital garden. If there's an rss feed, you can put that as well.
