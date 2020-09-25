@@ -1,7 +1,12 @@
 [
-    {
-        "name": "Binyamin Green",
-        "url": "https://binyam.in/notes",
-        "feed": null
-    }
+  {
+    "name": "Binyamin Green",
+    "url": "https://binyam.in/notes",
+    "feed": null
+  },
+  {
+    "name": "Cesar Rodriguez",
+    "url": "https://cesarrodrig.github.io/garden",
+    "feed": null
+  }
 ]
