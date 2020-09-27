@@ -11,4 +11,4 @@ Based on Max Böck's [webring boilerplate](https://github.com/maxboeck/webring)
 3. Style it however you like!
 
 ## Add yourself...
-Open an issue. List your name, a link to your digital garden, and optionally an rss feed.
+Open an issue. List your name, and the link to your digital garden.

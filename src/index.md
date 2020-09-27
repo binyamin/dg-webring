@@ -8,5 +8,5 @@ Hey 👋, thanks for dropping by. This is the homepage of a [webring](https://en
 
 **This webring includes:**
 {% for member in members %}
-- [{{member.name}}]({{member.url}}) {% if member.feed %} [(rss feed)]({{member.feed}}){%endif%}
+- [{{member.name}}]({{member.url}})
 {%endfor%}
