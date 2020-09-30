@@ -11,8 +11,13 @@ export const redirect = site => {
     }
 }
 
-export const getIndex = url =>
-    url ? members.findIndex(site => url.includes(site.url)) : -1
+export const getIndex = url => {
+    if(url) {
+        return members.findIndex(site => (url.includes(new URL(site.url).host)))
+    } else {
+        return -1;
+    }
+}
 
 export const getNext = url => {
     const index = getIndex(url)
