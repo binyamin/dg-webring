@@ -1,4 +1,4 @@
-const members = require('../../src/_data/members');
+const members = require('../../src/_data/members.json');
 
 const sanitizeURL = url => {
     return url.replace(/^https?:\/\/(www.){0,1}([\w.]+)\/?/, "https://$2");
