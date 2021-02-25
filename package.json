@@ -20,6 +20,5 @@
   "homepage": "https://github.com/binyamin/dg-webring#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1"
-  },
-  "dependencies": {}
+  }
 }
