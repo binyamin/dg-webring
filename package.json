@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/binyamin/dg-webring#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0-canary.23"
+    "@11ty/eleventy": "^2.0.1"
   }
 }
