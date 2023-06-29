@@ -1,7 +1,10 @@
 [build]
   command = "npm run compile"
   publish = "_site"
-  Functions = "functions"
+
+[functions]
+  directory = "functions"
+
 
 [[redirects]]
     from = "/next"
