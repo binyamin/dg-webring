@@ -1,9 +1,9 @@
 {
 	"name": "dg-webring",
-	"version": "1.0.0",
-	"description": "A webring for digital gardeners. Inspired by @maxboeck",
-	"main": "index.js",
+	"private": true,
 	"type": "module",
+	"author": "Binyamin Aron Green (https://binyam.in/)",
+	"license": "MIT",
 	"scripts": {
 		"start": "eleventy --serve",
 		"compile": "eleventy"
@@ -12,13 +12,6 @@
 		"type": "git",
 		"url": "git+https://github.com/binyamin/dg-webring.git"
 	},
-	"keywords": [],
-	"author": "Binyamin Aron Green (https://binyam.in/)",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/binyamin/dg-webring/issues"
-	},
-	"homepage": "https://github.com/binyamin/dg-webring#readme",
 	"devDependencies": {
 		"@11ty/eleventy": "^3.0.0"
 	}
