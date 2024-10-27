@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A webring for digital gardeners. Inspired by @maxboeck",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "eleventy --serve",
     "compile": "eleventy"
@@ -19,6 +20,6 @@
   },
   "homepage": "https://github.com/binyamin/dg-webring#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^3.0.0"
   }
 }
