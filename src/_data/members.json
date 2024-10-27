@@ -1,34 +1,34 @@
 [
-  {
-    "name": "Binyamin Green",
-    "url": "https://binyam.in/wiki"
-  },
-  {
-    "name": "Cesar Rodriguez",
-    "url": "https://cesarrodrig.github.io/garden"
-  },
-  {
-    "name": "Anne-Laure Le Cunff",
-    "url": "https://www.mentalnodes.com/"
-  },
-  {
-    "name": "Neil M",
-    "url": "https://commonplace.doubleloop.net"
-  },
-  {
-    "name": "Rosie Campbell",
-    "url": "https://publish.obsidian.md/rosie"
-  },
-  {
-    "name": "Rachel B (SmolCodes)",
-    "url": "https://smolnotes.netlify.app/"
-  },
-  {
-    "name": "Gavin Gamboa",
-    "url": "https://gavart.ist/"
-  },
-  {
-    "name": "Joschua",
-    "url": "https://publish.obsidian.md/the-x"
-  }
+	{
+		"name": "Binyamin Green",
+		"url": "https://binyam.in/wiki"
+	},
+	{
+		"name": "Cesar Rodriguez",
+		"url": "https://cesarrodrig.github.io/garden"
+	},
+	{
+		"name": "Anne-Laure Le Cunff",
+		"url": "https://www.mentalnodes.com/"
+	},
+	{
+		"name": "Neil M",
+		"url": "https://commonplace.doubleloop.net"
+	},
+	{
+		"name": "Rosie Campbell",
+		"url": "https://publish.obsidian.md/rosie"
+	},
+	{
+		"name": "Rachel B (SmolCodes)",
+		"url": "https://smolnotes.netlify.app/"
+	},
+	{
+		"name": "Gavin Gamboa",
+		"url": "https://gavart.ist/"
+	},
+	{
+		"name": "Joschua",
+		"url": "https://publish.obsidian.md/the-x"
+	}
 ]

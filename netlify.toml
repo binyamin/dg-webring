@@ -1,25 +1,24 @@
 [build]
-  command = "npm run compile"
-  publish = "_site"
+command = "npm run compile"
+publish = "_site"
 
 [functions]
-  directory = "functions"
-
-
-[[redirects]]
-    from = "/next"
-    to = "/.netlify/functions/next"
-    status = 301
-    force = true
+directory = "functions"
 
 [[redirects]]
-    from = "/prev"
-    to = "/.netlify/functions/prev"
-    status = 301
-    force = true
+from = "/next"
+to = "/.netlify/functions/next"
+status = 301
+force = true
 
 [[redirects]]
-    from = "/random"
-    to = "/.netlify/functions/random"
-    status = 301
-    force = true
+from = "/prev"
+to = "/.netlify/functions/prev"
+status = 301
+force = true
+
+[[redirects]]
+from = "/random"
+to = "/.netlify/functions/random"
+status = 301
+force = true

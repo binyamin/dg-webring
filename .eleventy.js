@@ -1,9 +1,9 @@
 export default (eleventyConfig) => {
-    eleventyConfig.addPassthroughCopy({ 'static': '.'});
+	eleventyConfig.addPassthroughCopy({ 'static': '.' });
 
-    return {
-        dir: {
-            input: 'src'
-        }
-    }
+	return {
+		dir: {
+			input: 'src'
+		}
+	}
 }

@@ -4,7 +4,6 @@ about: Add your site to the webring
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
 Hey, welcome to the club! 🍻
