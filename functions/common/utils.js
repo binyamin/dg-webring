@@ -4,8 +4,9 @@ import members from '../../src/_data/members.json' with { type: 'json' };
  * @param {string} url
  */
 const sanitizeURL = url => {
-	return url.replace(/^https?:\/\/(www\.){0,1}([\w.]+)\/?/, "https://$2");
+	return url.replace(/^https?\:\/\/(www\.)?/, 'https://');
 }
+
 /**
  *
  * @param {string} comparison
@@ -29,7 +30,7 @@ export function getNext(url) {
 	const index = getIndex(url);
 
 	if (index === -1) {
-		console.log('Missing "referer" header');
+		console.log('referrer position not found.');
 		return null;
 	}
 
