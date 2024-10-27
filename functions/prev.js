@@ -1,8 +1,18 @@
-const { redirect, getPrevious, getRandom } = require('./common/utils');
+import { getPrevious, getRandom } from './common/utils';
 
-exports.handler = function (event, _context) {
-	const { referer } = event.headers
-	const site = getPrevious(referer) || getRandom()
+/**
+ * @param {Request} req
+ * @returns {Promise<Response>}
+ */
+export default async function (req) {
+	const origin = req.headers.get('referer');
 
-	return redirect(site);
+	if (!origin) {
+		console.error('Missing "referer" header');
+		return Response.redirect(getRandom().url, 303);
+	}
+
+	const site = getPrevious(origin) ?? getRandom();
+
+	return Response.redirect(site.url, 303);
 }
